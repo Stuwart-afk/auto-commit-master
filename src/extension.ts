@@ -431,7 +431,7 @@ export function activate(context: vscode.ExtensionContext) {
             }
 
             const relativePath = path.relative(repoPath, filePath);
-
+// just a comment
             try {
                // Generate a Copilot-powered Conventional Commit for this file.
                const result = await commitSingleFile({
